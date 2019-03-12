@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "347362019233",
+    "firebase_url": "https://proximus-d4323.firebaseio.com",
+    "project_id": "proximus-d4323",
+    "storage_bucket": "proximus-d4323.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347362019233:android:0ffb136536c1ced9",
+        "android_client_info": {
+          "package_name": "com.example.proximus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347362019233-0hi6nombke1jqqviaqm874lsbu0atvgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA-lzZlgdnrLUT4dVCeexzwhI6dDsBUgc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
