@@ -1,5 +1,7 @@
 class LocalFile {
-  returnUser() {}
+  returnUser() {
+    return '';
+  }
 }
 
 LocalFile local = LocalFile();
