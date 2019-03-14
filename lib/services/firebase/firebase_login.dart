@@ -16,4 +16,8 @@ class FirebaseLogin {
     final FirebaseUser user = await _auth.signInWithCredential(credential);
     return user;
   }
+
+  Future logOUt() async {
+    await _googleSignIn.signOut();
+  }
 }

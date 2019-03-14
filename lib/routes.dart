@@ -33,9 +33,9 @@ class MainWidget extends StatelessWidget {
 }
 
 class WaitScreen extends StatelessWidget {
-  initMethod(context) {
-    String user = local.returnUser();
-    if (user.isEmpty) {
+  initMethod(context) async {
+    String user = await local.returnUserId();
+    if (user == null) {
       Navigator.of(context).pushReplacementNamed('/login');
     } else {
       Navigator.of(context).pushNamedAndRemoveUntil(

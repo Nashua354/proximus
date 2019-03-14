@@ -1,7 +1,7 @@
-import 'package:firebase_auth/firebase_auth.dart';
-
 class User {
-  FirebaseUser fbUser;
+  String userId = '';
+  String name = '';
+  String email = '';
 }
 
 User userObject = User();
