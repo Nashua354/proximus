@@ -68,6 +68,8 @@ androidx/annotation/WorkerThread.class
 androidx/annotation/XmlRes.class
 androidx/coordinatorlayout/widget/CoordinatorLayout$DefaultBehavior.class
 androidx/coordinatorlayout/widget/CoordinatorLayout$DispatchChangeEvent.class
+androidx/core/app/CoreComponentFactory$CompatWrapped.class
+androidx/core/app/CoreComponentFactory.class
 androidx/core/app/FrameMetricsAggregator$MetricType.class
 androidx/core/app/NotificationCompat$Action$SemanticAction.class
 androidx/core/app/NotificationCompat$BadgeIconType.class
@@ -203,6 +205,7 @@ com/google/firebase/firestore/PropertyName.class
 com/google/firebase/firestore/ServerTimestamp.class
 com/google/firebase/firestore/ThrowOnExtraProperties.class
 com/google/firebase/firestore/obfuscated/zzgf.class
+com/google/firebase/messaging/RemoteMessage$MessagePriority.class
 com/google/gson/annotations/Expose.class
 com/google/gson/annotations/JsonAdapter.class
 com/google/gson/annotations/SerializedName.class

@@ -1,26 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:proximus/services/shared_preferences.dart';
+import 'package:proximus/widgets/drawer.dart';
 
+//https://github.com/pinkfish/flutter_calendar ANNUAL CALENDER
 class DashBoard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      drawer: Drawer(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: <Widget>[
-            FlatButton(
-              child: Text('Logout'),
-              onPressed: () async {
-                await local.clear();
-                Navigator.of(context).pushNamedAndRemoveUntil(
-                    '/login', (Route<dynamic> route) => false);
-              },
-            ),
-          ],
-        ),
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text('Dashboard'),
+        leading: Icon(Icons.dashboard),
+        automaticallyImplyLeading: false,
       ),
+      endDrawer: drawer(context, 'dashboard'),
       body: Center(
         child: Text('DashBoard'),
       ),

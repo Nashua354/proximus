@@ -48,6 +48,14 @@ class LocalFile {
     prefs.clear();
     firebase.logOUt();
   }
+
+  sharedToLocal() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    userObject.email = prefs.getString('email');
+    userObject.name = prefs.getString('name');
+    userObject.userId = prefs.getString('user_id');
+    print('saved to local');
+  }
 }
 
 LocalFile local = LocalFile();
